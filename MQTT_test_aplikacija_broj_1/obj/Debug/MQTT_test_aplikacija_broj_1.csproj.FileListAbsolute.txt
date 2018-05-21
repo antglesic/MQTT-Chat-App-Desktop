@@ -1,0 +1,15 @@
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\bin\Debug\MQTT_test_aplikacija_broj_1.exe.config
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\bin\Debug\MQTT_test_aplikacija_broj_1.exe
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\bin\Debug\MQTT_test_aplikacija_broj_1.pdb
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\bin\Debug\M2Mqtt.Net.dll
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\obj\Debug\MQTT_test_aplikacija_broj_1.csprojResolveAssemblyReference.cache
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\obj\Debug\MQTT_test_aplikacija_broj_1.Properties.Resources.resources
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\obj\Debug\MQTT_test_aplikacija_broj_1.csproj.GenerateResource.Cache
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\obj\Debug\MQTT_test_aplikacija_broj_1.csproj.CoreCompileInputs.cache
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\obj\Debug\MQTT_test_aplikacija_broj_1.exe
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\obj\Debug\MQTT_test_aplikacija_broj_1.pdb
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\obj\Debug\MQTT_test_aplikacija_broj_1.pocetnaFrm.resources
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\obj\Debug\MQTT_test_aplikacija_broj_1.prijavaFrm.resources
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\bin\Debug\IPAddressControlLib.dll
+C:\Users\agles\Documents\Visual Studio 2017\Projects\MQTT_test_aplikacija_broj_1\MQTT_test_aplikacija_broj_1\obj\Debug\MQTT_test_aplikacija_broj_1.csproj.CopyComplete
