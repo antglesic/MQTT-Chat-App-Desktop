@@ -47,12 +47,12 @@
             this.btnPretplati = new System.Windows.Forms.Button();
             this.inputTema = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.outputPoruke = new System.Windows.Forms.TextBox();
-            this.inputPoruka = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnObjavi = new System.Windows.Forms.Button();
-            this.inputTemaObjavi = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.inputTemaObjavi = new System.Windows.Forms.TextBox();
+            this.btnObjavi = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.inputPoruka = new System.Windows.Forms.TextBox();
+            this.outputPoruke = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -69,8 +69,10 @@
             // 
             this.inputLozinka.Location = new System.Drawing.Point(28, 150);
             this.inputLozinka.Name = "inputLozinka";
+            this.inputLozinka.PasswordChar = '*';
             this.inputLozinka.Size = new System.Drawing.Size(156, 22);
             this.inputLozinka.TabIndex = 3;
+            this.inputLozinka.UseSystemPasswordChar = true;
             // 
             // btnSpajanje
             // 
@@ -247,30 +249,21 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Poruke";
             // 
-            // outputPoruke
+            // label6
             // 
-            this.outputPoruke.Enabled = false;
-            this.outputPoruke.Location = new System.Drawing.Point(13, 21);
-            this.outputPoruke.Multiline = true;
-            this.outputPoruke.Name = "outputPoruke";
-            this.outputPoruke.Size = new System.Drawing.Size(461, 209);
-            this.outputPoruke.TabIndex = 0;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 250);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(38, 15);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Tema:";
             // 
-            // inputPoruka
+            // inputTemaObjavi
             // 
-            this.inputPoruka.Location = new System.Drawing.Point(13, 323);
-            this.inputPoruka.Name = "inputPoruka";
-            this.inputPoruka.Size = new System.Drawing.Size(378, 22);
-            this.inputPoruka.TabIndex = 1;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(7, 304);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(47, 15);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Poruka:";
+            this.inputTemaObjavi.Location = new System.Drawing.Point(10, 268);
+            this.inputTemaObjavi.Name = "inputTemaObjavi";
+            this.inputTemaObjavi.Size = new System.Drawing.Size(378, 22);
+            this.inputTemaObjavi.TabIndex = 4;
             // 
             // btnObjavi
             // 
@@ -282,21 +275,30 @@
             this.btnObjavi.UseVisualStyleBackColor = true;
             this.btnObjavi.Click += new System.EventHandler(this.btnObjavi_Click);
             // 
-            // inputTemaObjavi
+            // label5
             // 
-            this.inputTemaObjavi.Location = new System.Drawing.Point(10, 268);
-            this.inputTemaObjavi.Name = "inputTemaObjavi";
-            this.inputTemaObjavi.Size = new System.Drawing.Size(378, 22);
-            this.inputTemaObjavi.TabIndex = 4;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(7, 304);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(47, 15);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Poruka:";
             // 
-            // label6
+            // inputPoruka
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 250);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Tema:";
+            this.inputPoruka.Location = new System.Drawing.Point(13, 323);
+            this.inputPoruka.Name = "inputPoruka";
+            this.inputPoruka.Size = new System.Drawing.Size(378, 22);
+            this.inputPoruka.TabIndex = 1;
+            // 
+            // outputPoruke
+            // 
+            this.outputPoruke.Enabled = false;
+            this.outputPoruke.Location = new System.Drawing.Point(13, 21);
+            this.outputPoruke.Multiline = true;
+            this.outputPoruke.Name = "outputPoruke";
+            this.outputPoruke.Size = new System.Drawing.Size(461, 209);
+            this.outputPoruke.TabIndex = 0;
             // 
             // prijavaFrm
             // 

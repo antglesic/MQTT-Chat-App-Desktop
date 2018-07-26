@@ -29,16 +29,21 @@ namespace MQTT_test_aplikacija_broj_1
             //Napomena: verziju protokola treba podesiti prije pozivanja Connect() metode
             Client.ProtocolVersion = MqttProtocolVersion.Version_3_1_1;
             //Uspostavljanje veze pomocu korisnickog imena i lozinke
-            byte code = Client.Connect(Guid.NewGuid().ToString(), "antglesic", "rukdasik1");
+            byte code = Client.Connect(Guid.NewGuid().ToString(), "korisnikTest", "lozinkaTest");
 
-            if(code == 0)
+            if(code == 0) //Ukoliko je uspješno uspostavljena veza
             {
                 outputSpajanje.Text = "Spojeni ste";
-                outputPretplata.Text = "pretplaceni ste na temu: nogomet";
+                outputPretplata.Text = "broker.hivemq.com je dostupan";
+            }
+            else //Inače
+            {
+                outputSpajanje.Text = "Nije uspostavljena veza";
+                outputPretplata.Text = "broker.hivemq.com nije dostupan";
             }
         }
 
-        private void btnPrijava_Click(object sender, EventArgs e)
+        private void btnPrijava_Click(object sender, EventArgs e) //Pritiskom na dugme PRIJAVA otvara se forma za prijavu
         {
             prijavaFrm prijava = new prijavaFrm();
             prijava.Show();

@@ -49,7 +49,7 @@ namespace MQTT_test_aplikacija_broj_1
 
         private void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
         {
-            string ReceivedMessage = Encoding.UTF8.GetString(e.Message);
+            string zaprimljenaPoruka = Encoding.UTF8.GetString(e.Message);
 
             //Debug.WriteLine("Received = " + Encoding.UTF8.GetString(e.Message) + " on topic " + e.Topic);
 
@@ -57,9 +57,9 @@ namespace MQTT_test_aplikacija_broj_1
 
             if(this.korisnik.vratiBrojPoruka() != 0)
             {
-                if (this.korisnik.posljednjaPoruka() != ReceivedMessage.ToString())
+                if (this.korisnik.posljednjaPoruka() != zaprimljenaPoruka.ToString())
                 {
-                    this.korisnik.novaPoruka(ReceivedMessage);
+                    this.korisnik.novaPoruka(zaprimljenaPoruka);
                     foreach (var elem in this.korisnik.vratiPoruke())
                     {
                         output += elem + "\n";
@@ -69,7 +69,7 @@ namespace MQTT_test_aplikacija_broj_1
             }
             else
             {
-                this.korisnik.novaPoruka(ReceivedMessage);
+                this.korisnik.novaPoruka(zaprimljenaPoruka);
                 foreach (var elem in this.korisnik.vratiPoruke())
                 {
                     output += elem + "\n";
